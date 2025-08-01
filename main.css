@@ -25,8 +25,9 @@ body {
 
 input[type="date"] {
   padding: 12px;
-  border-radius: 6px;
-  border: 1px solid #000000;
+  border-radius: 10px;
+  border: 2px solid #000000;
+  font-family: 'Comic Relief', sans-serif;
   margin: 15px 0;
   width: 100%;
   font-size: 18px;
@@ -37,9 +38,10 @@ button {
   background-color: #000000;
   color: white;
   border: none;
+  font-family: 'Comic Relief', sans-serif;
   padding: 14px;
   font-size: 16px;
-  border-radius: 6px;
+  border-radius: 10px;
   cursor: pointer;
 }
 
