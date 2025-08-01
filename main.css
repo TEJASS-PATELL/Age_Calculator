@@ -1,0 +1,51 @@
+body {
+  font-family: 'Comic Relief', sans-serif;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: white;
+  padding: 25px 35px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.container h2{
+    font-size: 30px;
+}
+
+.container label{
+    font-size: 18px;
+}
+
+input[type="date"] {
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #000000;
+  margin: 15px 0;
+  width: 100%;
+  font-size: 18px;
+  max-width: 300px;
+}
+
+button {
+  background-color: #000000;
+  color: white;
+  border: none;
+  padding: 14px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #000000;
+  line-height: 1.6;
+}
